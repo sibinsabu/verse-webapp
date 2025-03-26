@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verse Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome to Verse</h1>
+        <p>Manage your household efficiently.</p>
+
+        <div class="modules">
+            <a href="user-management.html" class="module-card">User Management</a>
+            <a href="grocery.html" class="module-card">Grocery List</a>
+            <a href="tasks.html" class="module-card">Task Management</a>
+            <a href="inventory.html" class="module-card">Inventory Management</a>
+            <a href="maintenance.html" class="module-card">Home Maintenance</a>
+        </div>
+
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html"; // Redirects to login page
+        }
+    </script>
+</body>
+</html>
+
+
